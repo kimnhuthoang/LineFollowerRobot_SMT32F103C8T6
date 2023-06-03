@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"line_followerrobot_byhoang\startup_stm32f103xb.o"
+"line_followerrobot_byhoang\main.o"
+"line_followerrobot_byhoang\stm32f1xx_it.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_msp.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_gpio_ex.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_tim.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_tim_ex.o"
+"line_followerrobot_byhoang\stm32f1xx_hal.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_rcc.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_rcc_ex.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_gpio.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_dma.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_cortex.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_pwr.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_flash.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_flash_ex.o"
+"line_followerrobot_byhoang\stm32f1xx_hal_exti.o"
+"line_followerrobot_byhoang\system_stm32f1xx.o"
+--strict --scatter "line_followerRobot_byHoang\line_followerRobot_byHoang.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "line_followerRobot_byHoang.map" -o line_followerRobot_byHoang\line_followerRobot_byHoang.axf
